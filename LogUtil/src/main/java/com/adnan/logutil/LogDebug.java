@@ -1,6 +1,7 @@
 package com.adnan.logutil;
 
 import android.util.Log;
+import android.widget.Toast;
 
 public class LogDebug {
     private static final String TAG = "Tag";
@@ -8,4 +9,5 @@ public class LogDebug {
     public static void d(String message) {
         Log.d(TAG, message);
     }
+
 }
